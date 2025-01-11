@@ -10,7 +10,6 @@ let datasource = {
 
 function get_total_value(object) {
     let acc = 0;
-    // Usando Object.values() para obter um array com todos os valores
     acc = Object.values(object).reduce((total, currentValue) => total + currentValue, 0);
     return acc;
 }
